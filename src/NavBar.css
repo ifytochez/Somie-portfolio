@@ -79,11 +79,6 @@
 }
 
 
-
-
-
-
-
 @media screen and (max-width:940px) {
     .header{
        max-width: 100%;
@@ -125,6 +120,14 @@
     }
     .navbar{
         height: 80px;  
-        padding: 60px 30px 50px 30px;
+        /* padding: 60px 30px 50px 30px; */
+    }
+}
+
+@media screen and (max-width:1400px) and (min-width: 940px) {
+    .navBar{
+        margin: auto;
+        width: 90%;
+      
     }
 }
