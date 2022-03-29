@@ -10,6 +10,7 @@ import Desktop5 from "./Desktop5.png"
 import Group107 from "./Group107.png"
 import Group679 from "./Group679.png"
 import Edit1 from "./Edit1.png"
+import Vector from "./Vector.png"
 function CashietCaseStudy() {
   return (
     <div className='cashietcasestudy'>
@@ -68,7 +69,9 @@ function CashietCaseStudy() {
             </div>
 
             <div className='borderless2'>
-                 <p>How might we  enhance the profile-creating <br></br> process for candidates?</p>
+                <img src={Vector} alt="macbook"/>
+                <div className='centered'> <p>How might we  enhance the profile-creating <br></br> process for candidates?</p></div>
+                
             </div>
 
             <div className='borderless'>
