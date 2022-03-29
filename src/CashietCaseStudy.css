@@ -439,8 +439,22 @@
     }
     .borderless6a p{
         font-size: 17px;
-        line-height: 26px;
+        line-height: 22px;
     }
+    .borderless7{
+        width: 80%;
+        padding: 70px 0px 0px 0px;
+    }
+    .borderless7 h1{
+        font-size: 45px;
+        font-weight: bolder;
+        padding-bottom: 40px;
+    }
+    
+    .borderless7c{
+        padding-top: 40px;
+    }
+
     .literation1{
         flex-direction: column;
         padding-top: 10px;
@@ -459,19 +473,7 @@
         text-align: left;
         padding: 10px 0px 0px 0px;
     }
-    .borderless7{
-        width: 80%;
-        padding: 70px 0px 0px 0px;
-    }
-    .borderless7 h1{
-        font-size: 45px;
-        font-weight: bolder;
-        padding-bottom: 40px;
-    }
-    
-    .borderless7c{
-        padding-top: 40px;
-    }
+   
    
 } 
 
@@ -591,14 +593,7 @@
     }
 }
 
-
-
-
-
-
-
-
-/* @media screen and (max-width:940px) and (min-width: 567px){
+@media screen and (min-width:940px) and (max-width: 1400px){
     .borderless h2{
         padding-bottom: 20px;
         font-size: 35px;
@@ -608,22 +603,28 @@
         flex-direction: column;
         padding-top: 0px;
     }
+    .borderless1h3{
+        padding-top: 30px;
+    }
     .borderless2{
-        font-size: 26px;
+        font-size: 29px;
         padding: 20px 0px 60px 0px;
         line-height: 50px;
+    }
+    .centered{
+        top: 35%;
     }
     .borderless3{
         flex-direction: column;
           padding-top: 60px;
       }
       .borderless3 > button{
-        width: 80%;
-        margin: auto;
-        margin-bottom: 30px;
-    }
-    .borderless1h3{
-        padding-top: 30px;
+          width: 95%;
+          margin-bottom: 30px;
+          font-size: 22px;
+      }
+      .vertical{
+        height: 200px;
     }
     .rectangles{
         flex-direction: column;
@@ -631,8 +632,8 @@
     }
     .rectangles > img{
         width: 100%;
-        max-height: 500px;
-        object-fit: contain;
+        max-height: 300px;
+        object-fit: cover;
         margin-bottom: 15px;
         border-radius: 10px;
     }
@@ -640,29 +641,13 @@
         margin-left: 0px;
         margin-top: 20px;
     }
-    .borderless > h5{
-        font-size: 20px;
-    }
-    
-    .borderless4{
-        width: 95%;
-        padding: 50px 0px 60px 0px;
-    }
-    .borderless4 p{
-        padding-left: 40px;
-    }
-    .vertical{
-        height: 200px;
-    }
     .borderless5{
         flex-direction: column;
-        padding-bottom: 10px;
         width: 80%;
     }
     .borderless5a{
         flex-direction: column;
-        max-height: 7000px;
-        min-height: 100px;
+        width: 100%;
     }
     .pic{
         margin-left: 0px;
@@ -677,17 +662,38 @@
     }
     .borderless6b > img{
         margin-left: 0px;
-        padding-top: 0px;
-        margin-top: 40px;
+        padding-top: 40px;
+        width: 100%;
     }
     .borderless6a h5{
         color: #CAAC05;
-        font-size: 25px;
+        font-size: 27px;
         padding-bottom: 20px;
     }
     .borderless6a p{
-        font-size: 17px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 40px;
+        color:#A0AEC0;
+    }
+    .borderless7{
+        width: 80%;
+        padding: 70px 0px 0px 0px;
+    }
+    .borderless7 h1{
+        font-size: 49px;
+        font-weight: bolder;
+        padding-bottom: 40px;
+    }
+    
+    .borderless7c{
+        padding-top: 40px;
     }
 }
- */
+
+
+
+
+
+
+
+
