@@ -140,20 +140,17 @@
 }
 .borderless5{
     display: flex;
-    padding-bottom: 50px;
     width: 75%;
     margin: auto;
 }
 .borderless5a{
     display: flex;
-    width: 100%;
-    max-height: 700px;
-    min-height: 100px;
+    width: 60%;
+    padding-bottom: 30px;
 }
 .borderless5a > img{
-    width:  550px;
-    height: 450px;
-    object-fit: contain;
+    width:  80%;
+    object-fit: cover;
     border-radius: 10px;
 }
 .pic{
@@ -170,9 +167,9 @@
     flex: 1;
 }
 .borderless6b > img{
-    width: 100%;
-    max-height: 450px;
-    object-fit: contain;
+    width:  95%;
+    object-fit: cover;
+    border-radius: 10px;
     margin-left: 20px;
 }
 .borderless6a h5{
@@ -193,12 +190,14 @@
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
-
+    font-size: 20px;
+    line-height: 40px;
+    color:#A0AEC0;
 }
 .borderless7{
     width: 75%;
     margin: auto;
-    padding: 100px 0px 0px 0px;
+    padding: 150px 0px 0px 0px;
 }
 .borderless7 h1{
     font-size: 55px;
@@ -212,8 +211,8 @@
 }
 .borderless7b > img{
     width: 100%;
-    max-height: 560px;
-    object-fit: contain;
+    /* max-height: 560px; */
+    object-fit: cover;
     border-radius: 10px;
 }
 .borderless7c{
@@ -221,8 +220,8 @@
 }
 .borderless7c > img{
     width: 100%;
-    max-height: 560px;
-    object-fit: contain;
+    /* max-height: 560px; */
+    object-fit: cover;
     border-radius: 10px;
 }
 .borderless8{
@@ -381,6 +380,7 @@
     .borderless3 > button{
         width: 95%;
         margin-bottom: 30px;
+        font-size: 17px;
     }
     .borderless4{
         width: 95%;
@@ -409,19 +409,20 @@
     }
     .borderless5{
         flex-direction: column;
-        padding-bottom: 10px;
         width: 80%;
     }
     .borderless5a{
         flex-direction: column;
+        width: 100%;
     }
     .pic{
         margin-left: 0px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     .borderless5a > img{
         width: 100%;
     }
+
     .borderless6{
         flex-direction: column;
         padding-top: 30px;
@@ -429,6 +430,7 @@
     .borderless6b > img{
         margin-left: 0px;
         padding-top: 40px;
+        width: 100%;
     }
     .borderless6a h5{
         color: #CAAC05;
@@ -457,9 +459,137 @@
         text-align: left;
         padding: 10px 0px 0px 0px;
     }
+    .borderless7{
+        width: 80%;
+        padding: 70px 0px 0px 0px;
+    }
+    .borderless7 h1{
+        font-size: 45px;
+        font-weight: bolder;
+        padding-bottom: 40px;
+    }
+    
+    .borderless7c{
+        padding-top: 40px;
+    }
+   
 } 
 
+@media screen and (min-width:567px) and (max-width: 940px){
+    .borderless h2{
+        padding-bottom: 20px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .borderless1{
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .borderless1h3{
+        padding-top: 30px;
+    }
+    .borderless2{
+        font-size: 26px;
+        padding: 20px 0px 60px 0px;
+        line-height: 50px;
+    }
+    .centered{
+        top: 35%;
+    }
+    .borderless3{
+        flex-direction: column;
+          padding-top: 60px;
+      }
+      .borderless3 > button{
+          width: 95%;
+          margin-bottom: 30px;
+          font-size: 19px;
+      }
+      .vertical{
+        height: 250px;
+    }
+    .rectangles{
+        flex-direction: column;
+        padding: 50px 0px 30px 0px;
+    }
+    .rectangles > img{
+        width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+    .rec{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .borderless5{
+        flex-direction: column;
+        width: 80%;
+    }
+    .borderless5a{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pic{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .borderless5a > img{
+        width: 100%;
+    }
+    .borderless6{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .borderless6b > img{
+        margin-left: 0px;
+        padding-top: 40px;
+        width: 100%;
+    }
+    .borderless6a h5{
+        color: #CAAC05;
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    .borderless6a p{
+        font-size: 20px;
+        line-height: 40px;
+        color:#A0AEC0;
+    }
+    .borderless7{
+        width: 80%;
+        padding: 70px 0px 0px 0px;
+    }
+    .borderless7 h1{
+        font-size: 49px;
+        font-weight: bolder;
+        padding-bottom: 40px;
+    }
+    
+    .borderless7c{
+        padding-top: 40px;
+    }
 
+    .literation1{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .literation-writeup{
+        width: 90%;
+    }
+    .literation-writeup h5{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .literation-writeup p{
+        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding: 10px 0px 0px 0px;
+    }
+}
 
 
 

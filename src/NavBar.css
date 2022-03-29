@@ -91,11 +91,12 @@
     .hamburger{
         display: block;
         color: white;
+        padding-right: 40px;
     }
     .nav-menu{
         position: fixed;
         left: -100%;
-        top: 90px;
+        top: 70px;
         flex-direction: column;
         background: rgba(0, 0, 0, .9);
         width: 70%;
