@@ -1,6 +1,6 @@
 import React from 'react'
 import './CashietCaseStudy.css'
-import MacBook from "./MacBook.png"
+import Frame from "./Frame2.png"
 import Rectangle from "./Rectangle.png"
 import Desktop1 from "./Desktop1.png"
 import Desktop2 from "./Desktop2.png"
@@ -15,7 +15,7 @@ function CashietCaseStudy() {
   return (
     <div className='cashietcasestudy'>
       <div className='casestudyhero'>
-          <img src={MacBook} alt="macbook"/>
+          <img src={Frame} alt="macbook"/>
       </div>
 
       <div className='casestudycontainer'>
@@ -172,7 +172,7 @@ function CashietCaseStudy() {
 
            <div className='borderless7'>
              <div className='borderless7a'>
-               <h1>End to end design</h1>
+               <p>End to end design</p>
              </div>
             
 
@@ -192,7 +192,7 @@ function CashietCaseStudy() {
                 <ol type="a">
                   <li> How easy and long it took to create a profile.</li>
                   <li> Iff the syncing of data from their resume or LinkedIn before filling out 
-                    missing necessary information solved the problem overwhelming profile creation.
+                    missing <br></br>  necessary information solved the problem overwhelming profile creation.
                 </li>
                   <li>If the easy apply feature eased the process of reapplying for jobs</li>
                   <li> If the recuitment process feature instilled more trust and served as feedback channel.</li>
@@ -202,13 +202,13 @@ function CashietCaseStudy() {
 
       <div className='casestudycontainer2'>
           <div className='literation'>
-              <h2>Design Iteration</h2>
+              <h1>Design Iteration</h1>
               <p>After the user testing we got helpful feedbacks on how we can improve the user experience.
               </p>
 
               <div className='literation1'>
                  <div className='literation-writeup'>
-                     <h5>Before user testing</h5>
+                     <h4>Before user testing</h4>
                      <p>You would have to get to the last section before submitting to ensure no field is left empty.
                     </p>
                  </div>
@@ -223,7 +223,7 @@ function CashietCaseStudy() {
                  </div>
 
                  <div className='literation-writeup'>
-                     <h5>After user testing</h5>
+                     <h4>After user testing</h4>
                      <p>A finish button was introduced so users and summit from any page but maybe inactive to ensure no field is left empty.
                     </p>
                  </div>
@@ -237,7 +237,7 @@ function CashietCaseStudy() {
                  </div>
 
                  <div className='literation-writeup'>
-                     <h5>Before user testing</h5>
+                     <h4>Before user testing</h4>
                      <p>Recruitment stage looked clickable but is supposed to be an indicator
                     </p>
                  </div>
@@ -250,7 +250,7 @@ function CashietCaseStudy() {
                  </div>
 
                  <div className='literation-writeup'>
-                     <h5>After user testing</h5>
+                     <h4>After user testing</h4>
                      <p>Recruitment stage looked clickable but is supposed to be an indicator
                     </p>
                  </div>
@@ -261,7 +261,7 @@ function CashietCaseStudy() {
 
       <div className='casestudycontainer3'>
 
-        <div className='literation'>
+        <div className='literation3'>
             <h2 className='key'>Key learning</h2>
 
               <ol type="a">
@@ -276,7 +276,7 @@ function CashietCaseStudy() {
               </ol>
 
               <h5>View prototype <span> here </span></h5>
-              <p><span>Admin dashboard:</span> I also worked on the admin dashboard but unfortunately my non-disclosure clause prevents me from sharing it.</p>
+              <p className=''><span>Admin dashboard:</span> I also worked on the admin dashboard but unfortunately my non-disclosure clause prevents me from sharing it.</p>
         </div>
           
       </div>
