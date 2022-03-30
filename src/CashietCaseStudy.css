@@ -356,10 +356,11 @@
     }
     .borderless h2, .literation h2{
         font-size: 22px;
+        line-height: 45px;
     }
     .borderless p, .literation p{
        font-size: 18px;
-       line-height: 48px;
+       line-height: 45px;
     }
     .borderless1{
         flex-direction: column;
