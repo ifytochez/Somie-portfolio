@@ -136,7 +136,7 @@
 
 }
 .unodered-list{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .borderless5{
     display: flex;
@@ -356,11 +356,11 @@
     }
     .borderless h2, .literation h2{
         font-size: 22px;
-        line-height: 45px;
+        line-height: 40px;
     }
     .borderless p, .literation p{
        font-size: 18px;
-       line-height: 45px;
+       line-height: 40px;
     }
     .borderless1{
         flex-direction: column;
@@ -453,7 +453,8 @@
         padding: 70px 0px 0px 0px;
     }
     .borderless7 p{
-        font-size: 45px;
+        font-size: 40px;
+        line-height: 40px;
         font-weight: bolder;
         padding-bottom: 40px;
     }
