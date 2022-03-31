@@ -116,7 +116,7 @@
     padding-left: 30px;
 }
 .content p{
-    font-size: 17px;
+    font-size: 19px;
     color: #caac05;
     font-weight: 500;
 }
@@ -194,7 +194,7 @@
         padding-bottom: 40px;
     } 
     .project-container{
-        width: 85%;
+        width: 100%;
         align-items: center;
         margin: auto;
     } 
@@ -210,9 +210,11 @@
    .case p{
        font-size: 19px;
        margin-top: 15px;
+       line-height: 40px;
    }
    .readmore{
-       font-size: 19px;
+       font-size: 20px;
+       font-weight: bolder;
        margin-top: 17px;
    }
     .comingsoon{

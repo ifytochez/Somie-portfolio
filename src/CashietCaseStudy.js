@@ -172,7 +172,7 @@ function CashietCaseStudy() {
 
            <div className='borderless7'>
              <div className='borderless7a'>
-               <p>End to end design</p>
+               <h2>End to end design</h2>
              </div>
             
 

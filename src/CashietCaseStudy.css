@@ -199,18 +199,13 @@
     margin: auto;
     padding: 150px 0px 0px 0px;
 }
-.borderless7 p{
-    font-size: 65px;
-    font-weight: bolder;
-    line-height: 40px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #FCF6D43B;
-    padding-bottom: 70px;
+.borderless7a h2{
+    padding-bottom: 30px;
+    font-size: 37px;
+    font-weight: 700;
 }
 .borderless7b > img{
     width: 100%;
-    /* max-height: 560px; */
     object-fit: cover;
     border-radius: 10px;
 }
@@ -219,7 +214,6 @@
 }
 .borderless7c > img{
     width: 100%;
-    /* max-height: 560px; */
     object-fit: cover;
     border-radius: 10px;
 }
@@ -396,6 +390,9 @@
     .borderless4 p{
         padding-left: 40px;
     }
+    .vertical{
+        height: 250px;
+    }
     .rectangles{
         flex-direction: column;
         padding: 50px 0px 30px 0px;
@@ -442,7 +439,8 @@
     .borderless6a h5{
         color: #CAAC05;
         font-size: 25px;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
+        line-height: 40px;
     }
     .borderless6a p{
         font-size: 18px;
@@ -450,14 +448,9 @@
     }
     .borderless7{
         width: 80%;
-        padding: 70px 0px 0px 0px;
+        padding: 30px 0px 0px 0px;
     }
-    .borderless7 p{
-        font-size: 40px;
-        line-height: 40px;
-        font-weight: bolder;
-        padding-bottom: 40px;
-    }
+    
     
     .borderless7c{
         padding-top: 40px;
@@ -579,13 +572,9 @@
     }
     .borderless7{
         width: 80%;
-        padding: 70px 0px 0px 0px;
+        padding: 30px 0px 0px 0px;
     }
-    .borderless7 p{
-        font-size: 39px;
-        font-weight: bolder;
-        padding-bottom: 40px;
-    }
+    
     
     .borderless7c{
         padding-top: 40px;
