@@ -228,8 +228,11 @@
 
 @media screen and (min-width:567px) and (max-width: 940px){
     .project-row{
-        flex-direction: column;
-        padding-bottom: 40px;
+        
+        display: flex;
+        z-index: 1;
+        padding-bottom: 130px;
+        
     } 
     .project-container{
         width: 85%; 
@@ -295,10 +298,10 @@
     }
 
     .case h3{
-        font-size: 35px;
+        font-size: 27px;
    }
    .case p{
-       font-size: 29px;
+       font-size: 20px;
        margin-top: 15px;
        line-height: 40px;
    }
