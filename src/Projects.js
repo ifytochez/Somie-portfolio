@@ -20,15 +20,9 @@ function Projects() {
 
                 <div className='content'>
                   <h1>Hello! I am <span>Chisom,</span></h1> 
-                  <h2><span>a UX Designer </span>based in Lagos.</h2>
-                  <h3>Welcome to My Design World</h3>
-                  <div className="social-mediaa">
-                      <li className="medium-icon"><a href='https://ifeanyichisom.medium.com/'><SiMedium/></a></li>
-                      <li className="linkedin-icon"><a href='https://www.linkedin.com/in/chisomifeanyi/'><GrLinkedin/></a></li>
-                      <li className="behance-icon"><a href='https://www.behance.net/ifeanyichisom'><ImBehance/></a></li>
-                      <li className="whatsapp-icon"><a href=' https://api.whatsapp.com/send?phone=+2348100166706&text&app_absent=0
-                          '><ImWhatsapp/></a></li>
-                    </div>
+                  <p>I help teams create simple and 
+                    accessible digital experiences and product that translate business objectives into solutions.
+                  </p>
                 </div>
 
             </div>
@@ -38,31 +32,33 @@ function Projects() {
         <div className='project-container'>
             
             <div className='content'>
-                <p>Projects</p>
-                <h3>Case Studies</h3>
+                <h3>Selected Projects</h3>
+                <p>Case Studies</p>
             </div>
            
 
             
               <div className='project-row'>
 
-                <div className='case-image'>
-                  <img className='frame' src={Frame} alt="cashietbanner"/>
-                </div>
-
                 <div className='case'>
+                    <p className='progressive'>PROGRESSIVE WEB APP</p>
                     <h3>Cashiet Website Redesign</h3>
-                    <p>Cashiet is a marketplace that let Nigerians buy products and pay in installments at a zero interest.</p>
+                    <p className='cashiet'>Cashiet is a marketplace that let Nigerians buy products and pay in installments at a zero interest.</p>
                     <Link to='/cashietcasestudy'className='readmore'> Read Case Study</Link>   
                  </div>
+
+                 <div className='case-image'>
+                  <img className='frame' src={Frame} alt="cashietbanner"/>
+                </div>
 
              </div>
 
              <div className='project-row project-rows'>
 
                 <div className='case'>
+                    <p className='progressive'>PROGRESSIVE WEB APP</p>
                     <h3>Glocally Web App Design</h3>
-                    <p>Glocally is a Web App that enables retail shops to achieve same-day delivery.</p>
+                    <p className='cashiet'>Glocally is a Web App that enables retail shops to achieve same-day delivery.</p>
                     <a href='' className='readmore'> Read Case Study</a>   
                 </div>
 
