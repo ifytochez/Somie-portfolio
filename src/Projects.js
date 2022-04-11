@@ -58,7 +58,7 @@ function Projects() {
 
              </div>
 
-             <div className='project-row'>
+             <div className='project-row project-rows'>
 
                 <div className='case'>
                     <h3>Glocally Web App Design</h3>

@@ -55,6 +55,9 @@
 
 
 @media screen and (max-width: 567px){
+    .hero .content{
+        padding: 0px 0px 0px 60px;
+    }
     .hero .content h1{
         font-size: 33px;
     }
@@ -69,11 +72,17 @@
       
     }
     .hero{
-        height: 60vh;
+        height: 70vh;
     }
     .content{
         padding: 0px 30px;
     }
+    .social-mediaa {
+        width: 70%;
+    }
+    .social-mediaa {
+        font-size: 29px;
+      }
 }
 
 @media screen and (min-width:567px) and (max-width: 940px){
@@ -198,12 +207,28 @@
     .project-row{
         flex-direction: column;
         padding-bottom: 40px;
+        padding: 100px 0px 0px 20px;
     } 
     .project-container{
         width: 100%;
         align-items: center;
         margin: auto;
     } 
+    .case-image, .casee-image{
+        width: 98%;
+        height: 400px;
+        background: #0C0C0C;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    .case-image > img{
+        width:95%;
+        margin: auto;
+    }
+    .project-rows{
+        flex-direction: column-reverse;
+    }
     .case{
         width: 100%;
         margin: auto;
@@ -223,13 +248,6 @@
        font-weight: bolder;
        margin-top: 17px;
    }
-    .comingsoon{
-       flex-direction: column;
-       width: 100%;
-       margin: auto;
-       margin-top: 40px;
-       height: 250px;
-    }
 }
 
 @media screen and (min-width:567px) and (max-width: 940px){
