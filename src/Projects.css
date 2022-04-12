@@ -4,26 +4,27 @@
 
 
 .hero{
-    background: black;
+    background: #171923;
     color: white;
-    height: 65vh;
+    height: 55vh;
     width: 100%;
 }
 .hero .content{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
     text-align: start;
-    padding: 0px 170px 0px 200px;
+    padding: 80px 170px 0px 200px;
 }
 .hero .content h1{
     font-size: 46px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 .hero .content p{
-    font-size: 30px;
+    font-size: 40px;
     line-height: 60px;
 }
 .content span{
@@ -53,33 +54,21 @@
     .content{
         padding: 0px 30px;
     }
-    .social-mediaa {
-        width: 70%;
-    }
-    .social-mediaa {
-        font-size: 39px;
-      }
 }
 
 @media screen and (min-width:567px) and (max-width: 940px){
-    .hero .content h1{
-        font-size: 53px;
+    .hero .content{
+        padding: 0px 35px 0px 45px;
     }
-    .hero .content h2{
+    .hero .content h1{
+        font-size: 46px;
+        font-weight: bold;
+    }
+    .hero .content p{
         margin-top: 20px;
         font-size: 35px;
-        line-height: 40px;
-    }
-    .hero .content h3{
-        font-size: 33px;
-        margin-top: 40px;
-      
-    }
-    .hero{
-        height: 60vh;
-    }
-    .content{
-        padding: 0px 30px;
+        line-height: 48px;
+        color: white;
     }
 }
 
@@ -130,7 +119,7 @@
 .project-rows{
     padding-top: 150px;
 }
-.case-image, .casee-image{
+.case-image{
     width: 47%;
     height: 400px;
     background: gray;
@@ -139,7 +128,15 @@
     border-radius: 4px;
     margin-left: 40px;
 }
-
+.casee-image{
+    width: 47%;
+    height: 400px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 40px;
+}
 .case{
     display: flex;
     flex-direction: column;
@@ -253,90 +250,86 @@
 }
 
 @media screen and (min-width:567px) and (max-width: 940px){
+    .content{
+        padding-left: 0px;
+    }
+    .content h3{
+        font-size: 36px;
+        color: #caac05;
+        font-weight: 600;
+    }
+    .content p{
+      font-size: 25px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: white;
+    }
     .project-row{
-         display: flex;
+        display: flex;
         z-index: 1;
-        padding-bottom: 130px; 
-    } 
-    .project-container{
-        width: 85%; 
-        align-items: center;
-        margin: auto; 
-    } 
-    .case{
         width: 100%;
         margin: auto;
-        padding-top: 30px; 
+        justify-content: space-between;
+        padding: 100px 0px 0px 0px;
     }
-
+    .case-image, .casee-image{
+        width: 47%;
+        height: 400px;
+        background: gray;
+        display: flex;
+        justify-content: center;
+        border-radius: 4px;
+        margin-left: 40px;
+    }
+    .progressive{
+        font-size: 15px;
+    }
+    .case{
+        display: flex;
+        flex-direction: column;
+        width: 51%;
+       padding-top: 60px;
+    }
     .case h3{
-        font-size: 20px;
-        font-family: "Inter";
+        font-size: 30px;
    }
-   .case p{
-       font-size: 17px;
-       margin-top: 15px;
+   .cashiet{
+       font-size: 18px;
    }
    .readmore{
-       font-size: 17px;
-       margin-top: 17px;
-   }
-    .comingsoon{
-       flex-direction: column;
-       width: 90%;
-       /* margin: auto; */
-       margin-top: 40px;
-       height: 280px;
-    }
+    width: 50%;
+    font-size: 14px;
+}
+    
+    
 }
 
 @media screen and (min-width:940px) and (max-width: 1400px){
-    .project-row{  
+    .content{
+        padding-left: 60px;
+    }
+    .project-row{
         display: flex;
         z-index: 1;
-        padding-bottom: 130px;  
-    } 
-    .project-container{
-        width: 85%; 
-        align-items: center;
-        margin: auto; 
-    } 
-    .content p{
-        font-size: 27px;
-        color: #caac05;
-        font-weight: 500;
-    }
-    .content h3{
-        font-size:37px;
-      font-weight: 700;
-      margin-top: 10px;
-    }
-    .case{
-        width: 100%;
+        width: 90%;
         margin: auto;
-        margin-top: 40px;
-        padding-top: 0px;
-        max-height: unset;
+        justify-content: space-between;
+        padding: 100px 0px 0px 0px;
     }
-
+    .project-rows{
+        padding-top: 150px;
+    }
+    .case-image, .casee-image{
+        width: 47%;
+    }
+    .progressive{
+        font-size: 18px;
+    }
     .case h3{
-        font-size: 27px;
-   }
-   .case p{
-       font-size: 17px;
-       margin-top: 15px;
-       line-height: 40px;
-   }
-
-   .readmore{
-       font-size: 17px;
-       margin-top: 17px;
-   }
-    .comingsoon{
-       flex-direction: column;
-       width: 90%;
-       margin-top: 40px;
-       height: 400px;
+         font-size: 35px;
+    }
+    .cashiet{
+        font-size: 22px;
     }
 }
 

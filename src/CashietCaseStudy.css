@@ -656,17 +656,14 @@
     .centered{
         top: 35%;
     }
-    .borderless3{
-        flex-direction: column;
-          padding-top: 60px;
-      }
-      .borderless3 > button{
-          width: 95%;
-          margin-bottom: 30px;
-          font-size: 22px;
-      }
-      .vertical{
-        height: 200px;
+    .borderless3 > button{
+        width: 32%;
+        height: 146px;
+        padding: 10px 40px;
+        margin-bottom: 60px;
+    }
+    .vertical{
+        height: 150px;
     }
     .rectangles{
         flex-direction: column;
@@ -682,40 +679,6 @@
     .rec{
         margin-left: 0px;
         margin-top: 20px;
-    }
-    .borderless5{
-        flex-direction: column;
-        width: 80%;
-    }
-    .borderless5a{
-        flex-direction: column;
-        width: 100%;
-    }
-    .pic{
-        margin-left: 0px;
-        margin-top: 30px;
-    }
-    .borderless5a > img{
-        width: 100%;
-    }
-    .borderless6{
-        flex-direction: column;
-        padding-top: 30px;
-    }
-    .borderless6b > img{
-        margin-left: 0px;
-        padding-top: 40px;
-        width: 100%;
-    }
-    .borderless6a h5{
-        color: #CAAC05;
-        font-size: 27px;
-        padding-bottom: 20px;
-    }
-    .borderless6a p{
-        font-size: 20px;
-        line-height: 40px;
-        color:#A0AEC0;
     }
     .borderless7{
         width: 80%;

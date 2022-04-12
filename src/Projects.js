@@ -21,7 +21,7 @@ function Projects() {
                 <div className='content'>
                   <h1>Hello! I am <span>Chisom,</span></h1> 
                   <p>I help teams create simple and 
-                    accessible digital experiences and product that translate business objectives into solutions.
+                    accessible digital experiences and product that translate business <br></br> objectives into solutions.
                   </p>
                 </div>
 
@@ -55,17 +55,16 @@ function Projects() {
 
              <div className='project-row project-rows'>
 
+             <div className='casee-image'>
+                  <img src={Cashiet} className='cashiet' alt="cashietbanner"/>
+              </div>
+
                 <div className='case'>
                     <p className='progressive'>PROGRESSIVE WEB APP</p>
                     <h3>Glocally Web App Design</h3>
                     <p className='cashiet'>Glocally is a Web App that enables retail shops to achieve same-day delivery.</p>
                     <a href='' className='readmore'> Read Case Study</a>   
                 </div>
-
-               <div className='casee-image'>
-                  <img src={Cashiet} className='cashiet' alt="cashietbanner"/>
-              </div>
-
               </div>
           
         </div>
