@@ -1,9 +1,9 @@
 .casestudyhero{
-    height: 68vh;
     width: 100%;
     background-color: #366aff;
     display: flex;
-    justify-content: center;
+    padding-top: 80px;
+    /* justify-content: center; */
 }
 .casestudyhero img{
     width: 70%;
@@ -636,7 +636,7 @@
 }
 
 @media screen and (min-width:940px) and (max-width: 1400px){
-    .borderless h2{
+    /* .borderless h2{
         padding-bottom: 20px;
         font-size: 35px;
         font-weight: 700;
@@ -647,7 +647,7 @@
     }
     .borderless1h3{
         padding-top: 30px;
-    }
+    } */
     .borderless2{
         font-size: 29px;
         padding: 20px 0px 60px 0px;

@@ -78,7 +78,7 @@ function Projects() {
 
                 <div className='case'>
                     <p className='progressive'>PROGRESSIVE WEB APP</p>
-                    <h3>Borderless</h3>
+                    <h3>Borderless Redesign</h3>
                     <p className='cashiet'>Reinventing job search experinces and encouraging Easy and Seamless
                       job application and recruitment.</p>
                     <Link to='/cashietcasestudy'className='readmore'> Read Case Study</Link>   

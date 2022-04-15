@@ -128,7 +128,7 @@
 }
 .case-image{
     width: 55%;
-    height: 320px;
+    height: 360px;
     background: #1c1c1c;
     display: flex;
     justify-content: center;
@@ -137,7 +137,7 @@
 }
 .casee-image{
     width: 47%;
-    height: 320px;
+    height: 360px;
     background: gray;
     display: flex;
     justify-content: center;
