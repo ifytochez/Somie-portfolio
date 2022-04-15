@@ -43,39 +43,62 @@
 
 
 @media screen and (max-width: 567px){
-    .hero .content{
-        padding: 0px 25px 0px 40px;
-    }
-    .hero .content h1{
-        font-size: 40px;
-        font-weight: bold;
-    }
-    .hero .content p{
-        margin-top: 20px;
-        font-size: 25px;
-        line-height: 40px;
-    }
     .hero{
-        height: 60vh;
+        height: 80vh;
     }
-    .content{
-        padding: 0px 30px;
+    .hero .contentt{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: start;
+        padding: 60px 40px 0px 40px;
+    }
+    .hero .contentt h1{
+        font-size: 25px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .hero .contentt h2{
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .hero-paragraph2{
+        font-size: 26px;
+        font-weight: 300;
+        margin-top: 30px;
+        line-height: 40px;
     }
 }
 
 @media screen and (min-width:567px) and (max-width: 940px){
-    .hero .content{
-        padding: 0px 35px 0px 45px;
+    .hero{
+        height: 80vh;
     }
-    .hero .content h1{
-        font-size: 46px;
-        font-weight: bold;
+    .hero .contentt{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: start;
+        padding: 40px 40px 0px 40px;
     }
-    .hero .content p{
-        margin-top: 20px;
-        font-size: 35px;
-        line-height: 48px;
-        color: white;
+    .hero .contentt h1{
+        font-size: 25px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .hero .contentt h2{
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .hero-paragraph2{
+        font-size: 26px;
+        font-weight: 300;
+        margin-top: 30px;
+        line-height: 40px;
     }
 }
 
@@ -224,6 +247,9 @@
         width: 90%;
         padding: 40px 0px 0px 0px;
     } 
+    .project-rows{
+        flex-direction: column-reverse;
+    }
     .project-container{
         width: 100%;
         align-items: center;
@@ -269,48 +295,60 @@
 
 @media screen and (min-width:567px) and (max-width: 940px){
     .content{
-        padding-left: 0px;
-    }
+        padding-left: 25px;
+    } 
     .content h3{
-        font-size: 30px;
-        color: #caac05;
-        font-weight: 600;
+        font-size: 28px;
+        font-weight: 500;
     }
     .project-row{
-        display: flex;
-        z-index: 1;
+        flex-direction: column;
+        width: 90%;
+        padding: 40px 0px 0px 0px;
+    } 
+    .project-rows{
+        flex-direction: column-reverse;
+    }
+    .project-container{
         width: 100%;
+        align-items: center;
         margin: auto;
-        justify-content: space-between;
-        padding: 70px 0px 0px 0px;
+    } 
+    .progressive{
+        font-style: italic;
+        font-size: 13px;
     }
     .case-image, .casee-image{
-        width: 47%;
-        height: 400px;
+        width: 100%;
+        height: 300px;
         background: gray;
         display: flex;
         justify-content: center;
         border-radius: 4px;
-        margin-left: 40px;
+        margin-left: 0px;
+        margin-top: 70px;
     }
-    .progressive{
-        font-size: 15px;
+    .case-image > img{
+        width:95%;
+        margin: auto;
     }
     .case{
-        display: flex;
-        flex-direction: column;
-        width: 51%;
-       padding-top: 60px;
+        width: 100%;
+        margin: auto;
+        padding-top: 30px;
     }
     .case h3{
-        font-size: 30px;
+        font-size: 20px;
    }
    .cashiet{
-       font-size: 18px;
-   }
+    font-size: 17px;
+    line-height: 30px;
+    color: #9fadbf;
+    margin-top: 15px;
+    font-weight: 100;
+}
    .readmore{
-    width: 50%;
-    font-size: 14px;
+    width: 60%;
 }
     
     
