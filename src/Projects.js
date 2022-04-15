@@ -6,6 +6,7 @@ import { ImWhatsapp } from 'react-icons/im';
 import { GrLinkedin } from 'react-icons/gr';
 import { SiMedium } from 'react-icons/si';
 import {ImBehance} from 'react-icons/im';
+import Laptop from "./Group689.png"
 import Cashiet from "./Cashiet-Banner.png"
 import {Link} from "react-router-dom"
 
@@ -18,10 +19,13 @@ function Projects() {
 
             <div className='hero ' id='hero'>
 
-                <div className='content'>
-                  <h1>Hello! I am <span>Chisom,</span></h1> 
-                  <p>I help teams create simple and 
-                    accessible digital experiences and product that translate business <br></br> objectives into solutions.
+                <div className='contentt'>
+                  <h1>Hello there,</h1> 
+                  <h2 className='hero-paragraph1'>I'm <span>Chisom.</span>  I help my teams design simple and 
+                    accessible digital experiences and product that translate business objectives into solutions.
+                  </h2>
+                  <p className='hero-paragraph2'>I push products to the next level through a design process that includes data-backed user research,
+                     rapid iteration, and visually stunning user-focused UI.
                   </p>
                 </div>
 
@@ -33,38 +37,66 @@ function Projects() {
             
             <div className='content'>
                 <h3>Selected Projects</h3>
-                <p>Case Studies</p>
             </div>
            
 
             
               <div className='project-row'>
 
-                <div className='case'>
-                    <p className='progressive'>PROGRESSIVE WEB APP</p>
-                    <h3>Cashiet Website Redesign</h3>
-                    <p className='cashiet'>Cashiet is a marketplace that let Nigerians buy products and pay in installments at a zero interest.</p>
-                    <Link to='/cashietcasestudy'className='readmore'> Read Case Study</Link>   
-                 </div>
-
-                 <div className='case-image'>
-                  <img className='frame' src={Frame} alt="cashietbanner"/>
+              <div className='case-image'>
+                  <img className='frame' src={Laptop} alt="cashietbanner"/>
                 </div>
 
+                <div className='case'>
+                    <p className='progressive'>PROGRESSIVE WEB APP</p>
+                    <h3>Borderless</h3>
+                    <p className='cashiet'>Reinventing job search experinces and encouraging Easy and Seamless
+                       job application and recruitment.</p>
+                    <Link to='/cashietcasestudy'className='readmore'> Read Case Study</Link>   
+                 </div>
              </div>
 
              <div className='project-row project-rows'>
 
-             <div className='casee-image'>
+              <div className='case'>
+                    <p className='progressive'>PROGRESSIVE WEB APP</p>
+                    <h3>Cashiet Website Redesign</h3>
+                    <p className='cashiet'>Cashiet is a marketplace that let Nigerians buy products and pay in installments at a zero interest.</p>
+                    <a href='' className='readmore'> Read Case Study</a>   
+                </div>
+
+                <div className='casee-image'>
                   <img src={Cashiet} className='cashiet' alt="cashietbanner"/>
               </div>
+              </div>
+
+              <div className='project-row project-rowss'>
+
+                <div className='case-image'>
+                  <img className='frame' src={Laptop} alt="cashietbanner"/>
+                </div>
 
                 <div className='case'>
                     <p className='progressive'>PROGRESSIVE WEB APP</p>
-                    <h3>Glocally Web App Design</h3>
-                    <p className='cashiet'>Glocally is a Web App that enables retail shops to achieve same-day delivery.</p>
+                    <h3>Borderless</h3>
+                    <p className='cashiet'>Reinventing job search experinces and encouraging Easy and Seamless
+                      job application and recruitment.</p>
+                    <Link to='/cashietcasestudy'className='readmore'> Read Case Study</Link>   
+                </div>
+              </div>
+
+              <div className='project-row project-rows'>
+
+              <div className='case'>
+                    <p className='progressive'>PROGRESSIVE WEB APP</p>
+                    <h3>Cashiet Website Redesign</h3>
+                    <p className='cashiet'>Cashiet is a marketplace that let Nigerians buy products and pay in installments at a zero interest.</p>
                     <a href='' className='readmore'> Read Case Study</a>   
                 </div>
+
+                <div className='casee-image'>
+                  <img src={Cashiet} className='cashiet' alt="cashietbanner"/>
+              </div>
               </div>
           
         </div>
