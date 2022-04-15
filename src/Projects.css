@@ -79,6 +79,17 @@
     }
 }
 
+@media screen and (min-width:940px) and (max-width: 1400px){
+    .hero .contentt{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        text-align: start;
+        padding: 80px 170px 0px 120px;
+    }
+}
 
 
 
