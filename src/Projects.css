@@ -45,6 +45,7 @@
 @media screen and (max-width: 567px){
     .hero{
         height: 80vh;
+        padding-top: 15px;
     }
     .hero .contentt{
         display: flex;
@@ -60,14 +61,16 @@
         margin-bottom: 35px;
     }
     .hero .contentt h2{
-        font-size: 23px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 36px;
+        margin-top: 15px;
+        font-weight: 400;
     }
     .hero-paragraph2{
-        font-size: 23px;
-        font-weight: 300;
-        margin-top: 20px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 36px;
+        margin-top: 15px;
+        font-weight: 100;
     }
 }
 
