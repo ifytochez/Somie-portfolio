@@ -53,22 +53,22 @@
         justify-content: center;
         width: 100%;
         text-align: start;
-        padding: 120px 40px 0px 40px;
+        padding: 50px 40px 0px 0px;
     }
     .hero .contentt h1{
         font-size: 25px;
         font-weight: normal;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
     .hero .contentt h2{
-        font-size: 20px;
+        font-size: 25px;
         line-height: 35px;
     }
     .hero-paragraph2{
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 300;
         margin-top: 20px;
-        line-height: 30px;
+        line-height: 35px;
     }
 }
 
