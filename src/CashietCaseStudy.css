@@ -259,7 +259,7 @@
 .borderless8{
     padding-top: 90px;
 }
-.borderless8 ol, .literation3 ol{
+.borderless8 ol, .literation33 ol{
     font-size: 20px;
     line-height: 40px;
     color:#A0AEC0;
@@ -271,11 +271,11 @@
     color: black;
     padding: 60px 0px 30px 0px;
 }
-.literation, .literation3{
+.literation, .literation33{
     width: 75%;
     margin: auto;
 }
-.literation h1, .literation3 h2{
+.literation h1, .literation33 h2{
     font-size: 30px;
     font-weight: 900;
     line-height: 40px;
@@ -292,7 +292,7 @@
     text-align: left;
     color: black;
 }
-.literation3 p{
+.literation33 p{
     color:#A0AEC0;
     font-size: 20px;
     font-style: normal;
@@ -301,7 +301,7 @@
     letter-spacing: 0em;
     text-align: left;
 }
-.literation1{
+.literation1, .literation2, .literation3, .literation4{
     display: flex;
     padding-top: 60px;
     justify-content: space-between;
@@ -344,7 +344,7 @@
 .key{
     padding-bottom: 30px;
 }
-.literation3 h5{
+.literation33 h5{
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -353,10 +353,10 @@
     text-align: left;
     padding-top: 30px;
 }
-.literation3 h5 span{
+.literation33 h5 span{
     color: #CAAC05;
 }
-.literation3 p span{
+.literation33 p span{
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -500,6 +500,10 @@
         flex-direction: column;
         padding-top: 10px;
     }
+    .literation2, .literation3, .literation4{
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
     .literation-writeup{
         width: 90%;
     }
@@ -619,6 +623,10 @@
         flex-direction: column;
         padding-top: 10px;
     }
+    .literation2, .literation3, .literation4{
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
     .literation-writeup{
         width: 90%;
     }
@@ -632,6 +640,17 @@
         letter-spacing: 0px;
         text-align: left;
         padding: 10px 0px 0px 0px;
+    }
+    .literation-picture{
+        width: 80%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .literation-picture img{
+        width: 100%;
+        max-height: 560px;
+        object-fit: contain;
+        border-radius: 10px;
     }
 }
 

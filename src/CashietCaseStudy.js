@@ -328,7 +328,7 @@ function CashietCaseStudy() {
             </div>
           </div>
 
-          <div className="literation1">
+          <div className="literation2">
             <div className="literation-picture">
               <img src={Iteration} alt="macbook" />
             </div>
@@ -342,7 +342,7 @@ function CashietCaseStudy() {
             </div>
           </div>
 
-          <div className="literation1">
+          <div className="literation3">
             <div className="literation-picture">
               <img src={Iteration2} alt="macbook" />
             </div>
@@ -356,7 +356,7 @@ function CashietCaseStudy() {
             </div>
           </div>
 
-          <div className="literation1">
+          <div className="literation4">
             <div className="literation-picture">
               <img src={Iteration3} alt="macbook" />
             </div>
@@ -373,7 +373,7 @@ function CashietCaseStudy() {
       </div>
 
       <div className="casestudycontainer3">
-        <div className="literation3">
+        <div className="literation33">
           <h2 className="key">Key learning</h2>
 
           <ol type="a">
