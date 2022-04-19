@@ -375,7 +375,7 @@
 
 @media screen and (max-width: 567px){
     .casestudyhero{
-        height: 48vh;
+        /* height: 48vh; */
     }
     .casestudyhero img{
         width: 90%;
@@ -432,7 +432,7 @@
         padding-left: 40px;
     }
     .vertical{
-        height: 250px;
+        height: 200px;
     }
     .rectangles{
         flex-direction: column;
