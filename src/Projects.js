@@ -52,7 +52,7 @@ function Projects() {
                     <h3>Borderless Redesign</h3>
                     <p className='cashiet'>Reinventing job search experinces and encouraging Easy and Seamless
                        job application and recruitment.</p>
-                    <Link to='/cashietcasestudy'className='readmore'> Read Case Study</Link>   
+                    <Link to='/borderlesscasestudy'className='readmore'> Read Case Study</Link>   
                  </div>
              </div>
 
@@ -62,7 +62,7 @@ function Projects() {
                     <p className='progressive'>PROGRESSIVE WEB APP</p>
                     <h3>Cashiet Website Redesign</h3>
                     <p className='cashiet'>Cashiet is a marketplace that let Nigerians buy products and pay in installments at a zero interest.</p>
-                    <a href='' className='readmore'> Read Case Study</a>   
+                    <Link to='/cashietcasestudy'className='readmore'> Read Case Study</Link>   
                 </div>
 
                 <div className='casee-image'>
