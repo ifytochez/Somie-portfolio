@@ -179,17 +179,17 @@
 }
 .borderless5{
     display: flex;
-    width: 75%;
+    width: 85%;
     margin: auto;
 }
 .borderless5a{
     display: flex;
-    width: 60%;
+    width: 50%;
     padding-bottom: 30px;
 }
 .borderless5a > img{
-    width:  80%;
-    object-fit: cover;
+    width:  100%;
+    /* object-fit: cover; */
     border-radius: 10px;
 }
 .pic{

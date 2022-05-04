@@ -37,7 +37,7 @@ function CashietCaseStudy() {
           Cashiet is a marketplace that let Nigerians buy products and pay in installments at a zero interest.
           </p>
 
-          <div className="borderless1">
+          <div className="cashiet1">
             <div>
               <h3 className="borderless1h3 borderless1h4">Role</h3>
               <p>Plan and run design research</p>
