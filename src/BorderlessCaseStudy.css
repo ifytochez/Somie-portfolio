@@ -15,7 +15,7 @@
     padding-top: 60px;
 }
 .borderless{
-    width: 75%;
+    width: 87%;
     margin: auto;
     padding-bottom: 70px;
 }
@@ -33,14 +33,13 @@
 .problem-diagnosis{
     display: flex;
     padding-top: 50px;
-    height: 370px;
 }
 .problem-diagnosis img{
-    width: 50%;
+    width: 48%;
     border-radius: 10px
 }
 .diagnosis-pix{
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .borderless1{
     display: flex;

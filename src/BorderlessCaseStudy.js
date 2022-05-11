@@ -135,7 +135,7 @@ function BorderlessCaseStudy() {
           </p>
 
           <p>
-            This helps us gauge user needs, and pain points felt by tech talents
+            This helped us gauge user needs, and pain points felt by tech talents
             and understand the needs of businesses. These insights included:
             simplifying the profile creation process, introducing a feedback
             channel, and getting more details not contained in talent's resume.
