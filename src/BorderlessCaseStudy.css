@@ -33,6 +33,7 @@
 .problem-diagnosis{
     display: flex;
     padding-top: 50px;
+    height: 370px;
 }
 .problem-diagnosis img{
     width: 50%;
@@ -586,8 +587,8 @@
         color:#A0AEC0;
     }
     .borderless7{
-        width: 80%;
-        padding: 30px 0px 0px 0px;
+        width: 87%;
+        padding: 60px 0px 0px 0px;
     }
     .borderless7c{
         padding-top: 40px;
@@ -600,12 +601,13 @@
         flex-direction: column-reverse;
         padding-top: 10px;
     }
-    .literation-writeup{
+    .literation-writeup, .literation-writeup1{
         width: 90%;
     }
     .literation-writeup h5{
         font-size: 24px;
         line-height: 30px;
+        padding-top: 20px;
     }
     .literation-writeup p{
         font-size: 20px;
@@ -615,7 +617,7 @@
         padding: 10px 0px 0px 0px;
     }
     .literation-picture{
-        width: 80%;
+        width: 90%;
         padding-top: 50px;
         padding-bottom: 30px;
     }
