@@ -34,8 +34,16 @@
     display: flex;
     padding-top: 50px;
 }
+.problem-diagnosis2{
+   width: 99%;
+   padding-top: 50px;
+}
 .problem-diagnosis img{
     width: 48%;
+    border-radius: 10px
+}
+.problem-diagnosis2 img{
+    width: 100%;
     border-radius: 10px
 }
 .diagnosis-pix{
@@ -293,7 +301,7 @@
     width: 40%;
     padding-right: 15px;
 }
-.literation-writeup h4{
+.literation-writeup h4, .literation-writeup1 h4{
     font-size: 26px;
     font-style: normal;
     font-weight: 900;

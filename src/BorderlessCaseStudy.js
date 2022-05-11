@@ -9,6 +9,8 @@ import Desktop5 from "./Desktop5.png";
 import Group107 from "./Group107.png";
 import Group679 from "./Group679.png";
 import Frame17 from "./Frame17.png";
+import Frame16 from "./Frame16.png";
+import Borderlesshr from "./Borderlesshr.png";
 import Edit1 from "./Edit1.png";
 import Iteration from "./iteration1.png";
 import Iteration3 from "./iteration3.png";
@@ -143,7 +145,11 @@ function BorderlessCaseStudy() {
 
           <div className="problem-diagnosis">
               <img src={Frame17}  alt="macbook" />
-              <img src={Frame17} className="diagnosis-pix" alt="macbook" />
+              <img src={Frame16} className="diagnosis-pix" alt="macbook" />
+          </div>
+
+          <div className="problem-diagnosis2">
+               <img src={Borderlesshr} alt="" />
           </div>
 
         </div>
