@@ -152,6 +152,19 @@ function BorderlessCaseStudy() {
                <img src={Borderlesshr} alt="" />
           </div>
 
+          <div className="visualising">
+         <h2>Visualizing a User-Centric Experience</h2>
+
+          <p>
+          After creating user flow which helped me identify key screen needed to 
+          complete a particular task,  I started sketching low-fidelity pages. 
+          This allowed me to explore design patterns, examine and text my ideas before
+          designing high-fidelity designs.  Low fidelity design helped me focus on the 
+          visual consistency and hierarchy before applying styles.
+          </p>
+         </div>
+
+
         </div>
 
         <div className="borderless">
