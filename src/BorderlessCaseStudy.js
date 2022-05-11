@@ -1,7 +1,6 @@
 import React from "react";
 import "./BorderlessCaseStudy.css";
 import Frame from "./Frame2.png";
-import Rectangle from "./Rectangle.png";
 import Desktop1 from "./Desktop1.png";
 import Desktop2 from "./Desktop2.png";
 import Desktop3 from "./Desktop3.png";
@@ -9,12 +8,12 @@ import Desktop4 from "./Desktop4.png";
 import Desktop5 from "./Desktop5.png";
 import Group107 from "./Group107.png";
 import Group679 from "./Group679.png";
+import Frame17 from "./Frame17.png";
 import Edit1 from "./Edit1.png";
 import Iteration from "./iteration1.png";
 import Iteration3 from "./iteration3.png";
 import Iteration2 from "./iteration2.png";
 import Vector from "./Vector.png";
-import ChisomPicture from "./chisompic.jpg";
 function BorderlessCaseStudy() {
   return (
     <div className="borderlesscasestudy">
@@ -142,71 +141,11 @@ function BorderlessCaseStudy() {
             channel, and getting more details not contained in talent's resume.
           </p>
 
-          <div className="rectangles">
-            <div className="problem-diagnosis1">
-              <img src={ChisomPicture} alt="macbook" />
-              <div className="diagnosis-writeup">
-                <h4>Dan Peter</h4>
-                <p>Technical Recruiter</p>
-              </div>
-
-              <div className="vertical-line"></div>
-              <p>
-                Dan Peter is a technical recruiter for one of the Tech Companies
-                looking to hire Talents. His primary job is to find talents that
-                fits the company's culture and has the required skill set
-              </p>
-            </div>
-
-            <div className="problem-diagnosis2">
-              <div className="diagnosis">
-                <h2>BACKGROUND</h2>
-
-                <ul>
-                  <li>35 Years</li>
-                  <li>Works as a Tech Recruiter</li>
-                  <li>B.Sc holder</li>
-                  <li>Has access to technology</li>
-                </ul>
-              </div>
-
-              <div className="diagnosis2">
-                <h2>GOALS</h2>
-
-                <ul>
-                  <li>
-                    Looking for the best talents in shortest Possible time
-                  </li>
-                  <li>Simplify the recruiting process</li>
-                  <li>Lower the cost-per-hire</li>
-                </ul>
-              </div>
-            </div>
-
-
-            <div className="problem-diagnosis3">
-            <div className="diagnosis">
-                <h2>MOTIVATIONS</h2>
-
-                <ul>
-                  <li>Ease</li>
-                  <li>Speed</li>
-                  <li>Time</li>
-                </ul>
-              </div>
-
-              <div className="diagnosis2">
-                <h2>PAINPOINTS</h2>
-
-                <ul>
-                  <li>
-                   Difficult to find Talents who are a culture fit to their Company
-                  </li>
-                  <li>Too much time spent looking for the right Talent</li>
-                </ul>
-              </div>
-            </div>
+          <div className="problem-diagnosis">
+              <img src={Frame17}  alt="macbook" />
+              <img src={Frame17} className="diagnosis-pix" alt="macbook" />
           </div>
+
         </div>
 
         <div className="borderless">
@@ -316,7 +255,7 @@ function BorderlessCaseStudy() {
           </p>
 
           <div className="literation1">
-            <div className="literation-writeup">
+            <div className="literation-writeup1">
               <h4>Before user testing</h4>
               <p>
                 You would have to get to the last section before submitting to

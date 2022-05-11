@@ -30,6 +30,17 @@
     color:#A0AEC0;
     font-weight: 500;
 }
+.problem-diagnosis{
+    display: flex;
+    padding-top: 50px;
+}
+.problem-diagnosis img{
+    width: 50%;
+    border-radius: 10px
+}
+.diagnosis-pix{
+    margin-left: 40px;
+}
 .borderless1{
     display: flex;
     justify-content: space-between;
@@ -145,38 +156,6 @@
   padding-left: 30px; 
   padding-right: 50px;  
 }
-.diagnosis-writeup2 p{
-    line-height: 40px;
-}
-.problem-diagnosis2, .problem-diagnosis3{
-    display: flex;
-    color: white;
-    width: 100%;
-    margin-top: 30px;
-}
-.diagnosis{
-    width: 35%;
-    background: #00125A;
-    padding: 25px 0px 10px 30px;
-}
-.diagnosis2{
-    width: 65%;
-    margin-left: 30px;
-    background: #00125A;
-    padding: 25px 0px 10px 30px;
-}
-.problem-diagnosis2 ul, .problem-diagnosis3 ul{
-    padding-left: 30px;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 50px;
-    letter-spacing: 0em;
-    text-align: left;
-    font-size: 20px;
-    line-height: 40px;
-    color:#A0AEC0;
-}
 .borderless5{
     display: flex;
     width: 85%;
@@ -273,7 +252,7 @@
     padding: 60px 0px 30px 0px;
 }
 .literation, .literation33{
-    width: 75%;
+    width: 87%;
     margin: auto;
 }
 .literation h1, .literation33 h2{
@@ -305,10 +284,14 @@
 .literation1, .literation2, .literation3, .literation4{
     display: flex;
     padding-top: 60px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .literation-writeup{
     width: 40%;
+}
+.literation-writeup1{
+    width: 40%;
+    padding-right: 15px;
 }
 .literation-writeup h4{
     font-size: 26px;
@@ -329,12 +312,12 @@
     color: black;
 }
 .literation-picture{
-    width: 50%;
+    width: 70%;
 }
 .literation-picture img{
     width: 100%;
     max-height: 560px;
-    object-fit: contain;
+    /* object-fit: contain; */
     border-radius: 10px;
 }
 .casestudycontainer3{
@@ -564,17 +547,6 @@
       .vertical{
         height: 250px;
     }
-    .rectangles{
-        flex-direction: column;
-        padding: 50px 0px 30px 0px;
-    }
-    .rectangles > img{
-        width: 100%;
-        max-height: 400px;
-        object-fit: contain;
-        margin-bottom: 15px;
-        border-radius: 10px;
-    }
     .rec{
         margin-left: 0px;
         margin-top: 20px;
@@ -672,17 +644,6 @@
     }
     .vertical{
         height: 150px;
-    }
-    .rectangles{
-        flex-direction: column;
-        padding: 50px 0px 30px 0px;
-    }
-    .rectangles > img{
-        width: 100%;
-        max-height: 300px;
-        object-fit: cover;
-        margin-bottom: 15px;
-        border-radius: 10px;
     }
     .rec{
         margin-left: 0px;
