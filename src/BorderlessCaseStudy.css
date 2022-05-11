@@ -234,7 +234,7 @@
     color:#A0AEC0;
 }
 .borderless7{
-    width: 85%;
+    width: 87%;
     margin: auto;
     padding: 150px 0px 0px 0px;
 }
@@ -253,7 +253,7 @@
 }
 .borderless7c > img{
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     border-radius: 10px;
 }
 .borderless8{
@@ -700,7 +700,7 @@
         line-height: 40px;
     }
     .borderless7{
-        width: 85%;
+        width: 87%;
         padding: 70px 0px 0px 0px;
     }
     .borderless7 h1{
