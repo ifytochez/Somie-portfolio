@@ -299,7 +299,7 @@
 }
 .literation-writeup1{
     width: 40%;
-    padding-right: 15px;
+    padding-right: 25px;
 }
 .literation-writeup h4, .literation-writeup1 h4{
     font-size: 26px;
@@ -322,7 +322,10 @@
 .literation-picture{
     width: 70%;
 }
-.literation-picture img{
+.literation1-picture{
+    width: 66%;
+}
+.literation-picture img, .literation1-picture img{
     width: 100%;
     max-height: 560px;
     /* object-fit: contain; */
@@ -340,10 +343,11 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 0px;
     letter-spacing: 0px;
     text-align: left;
     padding-top: 30px;
+    padding-bottom: 20px;
 }
 .literation33 h5 span{
     color: #CAAC05;

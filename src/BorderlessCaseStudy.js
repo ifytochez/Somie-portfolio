@@ -268,7 +268,7 @@ function BorderlessCaseStudy() {
                 ensure no field is left empty.
               </p>
             </div>
-            <div className="literation-picture">
+            <div className="literation1-picture">
               <img src={Edit1} alt="macbook" />
             </div>
           </div>
@@ -342,10 +342,13 @@ function BorderlessCaseStudy() {
           </ol>
 
           <h5>
-            View prototype <span> here </span>
+            View prototype: <span>Click here </span>
+          </h5>
+          <h5>
+            View landing page: <span>Click here </span>
           </h5>
           <p className="">
-            <span>Admin dashboard:</span> I also worked on the admin dashboard
+            Admin dashboard: I also worked on the admin dashboard
             but unfortunately my non-disclosure clause prevents me from sharing
             it.
           </p>
