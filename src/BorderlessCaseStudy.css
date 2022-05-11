@@ -184,11 +184,11 @@
 }
 .borderless5a{
     display: flex;
-    width: 50%;
+     width: 60%;
     padding-bottom: 30px;
 }
 .borderless5a > img{
-    width:  100%;
+    width:  85%;
     /* object-fit: cover; */
     border-radius: 10px;
 }
