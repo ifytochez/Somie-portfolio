@@ -26,7 +26,7 @@
 }
 .borderless p{
     font-size: 20px;
-    line-height: 50px;
+    line-height: 40px;
     color:#A0AEC0;
     font-weight: 500;
 }
@@ -196,7 +196,7 @@
     margin-left: 30px;
 }
 .borderless6{
-    width: 75%;
+    width: 85%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -206,10 +206,10 @@
     flex: 1;
 }
 .borderless6b > img{
-    width:  95%;
-    object-fit: cover;
+    width:  100%;
+    /* object-fit: cover; */
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .borderless6a h5{
     color: #CAAC05;
@@ -234,7 +234,7 @@
     color:#A0AEC0;
 }
 .borderless7{
-    width: 75%;
+    width: 85%;
     margin: auto;
     padding: 150px 0px 0px 0px;
 }
@@ -245,7 +245,7 @@
 }
 .borderless7b > img{
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     border-radius: 10px;
 }
 .borderless7c{
@@ -258,6 +258,7 @@
 }
 .borderless8{
     padding-top: 90px;
+    width: 85%;
 }
 .borderless8 ol, .literation33 ol{
     font-size: 20px;

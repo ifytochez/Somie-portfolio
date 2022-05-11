@@ -45,7 +45,7 @@ function BorderlessCaseStudy() {
 
             <div>
               <h3 className="borderless1h3">Team</h3>
-              <p>I worked in a team of two designers</p>
+              <p>I worked in a team of two designers <br/> with feedback from stakeholders.</p>
             </div>
           </div>
         </div>
