@@ -689,7 +689,7 @@
         margin-top: 20px;
     }
     .borderless6b > img{
-        width:  90%;
+        width:  100%;
         object-fit: cover;
         border-radius: 10px;
         margin-left: 35px;
