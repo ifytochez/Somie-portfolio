@@ -343,14 +343,13 @@ function BorderlessCaseStudy() {
             </li>
             <li>
               {" "}
-              Testing my desiging soluions as a way to not only validate
-              decisions but also to get constant feedback and also to confirm
-              that my soluions are actually solving the problem.
+              Testing my designing soluions with low fidelity prototype helped 
+              me understand how users execpted to complete a task, get feedbacks
+               and implemented changes which led a solid foundation for high-fidelity design.  
             </li>
-            <li>Design soluions should not </li>
+            <li>Style guide and design system are very important when collaborating with another designer. It helps with visual consistency across different pages</li>
             <li>
-              If the shop profile instilled more trust and loyalty to the
-              products sold by the sellers
+            If the shop profile instilled more trust and loyalty to the products sold by the sellers
             </li>
           </ol>
 
@@ -376,3 +375,7 @@ function BorderlessCaseStudy() {
 }
 
 export default BorderlessCaseStudy;
+// a.  In making forms more user-friendly and less overwhelming, I grouped the questions into sections, made location visible and introduced a progress indicator.
+// b. 
+// c.  
+// d.  
