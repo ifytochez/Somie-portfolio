@@ -323,7 +323,7 @@
     width: 70%;
 }
 .literation1-picture{
-    width: 66%;
+    width: 60%;
 }
 .literation-picture img, .literation1-picture img{
     width: 100%;
@@ -347,7 +347,7 @@
     letter-spacing: 0px;
     text-align: left;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .literation33 h5 span{
     color: #CAAC05;
@@ -360,6 +360,12 @@
     letter-spacing: 0px;
     text-align: left;
     color: white;
+}
+.literation33 p{
+    font-weight: 400;
+}
+.view-prototype{
+    padding-top: 50px;
 }
 
 

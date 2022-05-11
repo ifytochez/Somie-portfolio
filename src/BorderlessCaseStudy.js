@@ -341,6 +341,7 @@ function BorderlessCaseStudy() {
             </li>
           </ol>
 
+          <div className="view-prototype">
           <h5>
             View prototype: <span>Click here </span>
           </h5>
@@ -348,10 +349,13 @@ function BorderlessCaseStudy() {
             View landing page: <span>Click here </span>
           </h5>
           <p className="">
-            Admin dashboard: I also worked on the admin dashboard
+            <span>Admin dashboard:</span>  I also worked on the admin dashboard
             but unfortunately my non-disclosure clause prevents me from sharing
             it.
           </p>
+          </div>
+
+
         </div>
       </div>
     </div>
