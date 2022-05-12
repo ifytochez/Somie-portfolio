@@ -229,23 +229,29 @@
     margin: auto;
     padding: 150px 0px 0px 0px;
 }
+/* .borderless7b, .borderless7c{
+    max-height: 600px;
+} */
 .borderless7a h2{
     padding-bottom: 70px;
     font-size: 55px;
     font-weight: bolder;
 }
 .borderless7b > img{
-    width: 100%;
-    /* object-fit: cover; */
+    width: 90%;
+    max-height: 700px;
     border-radius: 10px;
 }
 .borderless7c{
     padding-top: 80px;
 }
 .borderless7c > img{
-    width: 100%;
-    /* object-fit: cover; */
+    width: 90%;
+    max-height: 700px;
     border-radius: 10px;
+}
+.end-to-end{
+    padding-top: 40px;
 }
 .borderless8{
     padding-top: 90px;

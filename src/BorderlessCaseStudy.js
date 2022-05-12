@@ -6,8 +6,10 @@ import Desktop2 from "./Desktop2.png";
 import Desktop3 from "./Desktop3.png";
 import Desktop4 from "./Desktop4.png";
 import Desktop5 from "./Desktop5.png";
-import Group107 from "./Group107.png";
-import Group679 from "./Group679.png";
+import Dashboard1 from "./Dashboard1.png";
+import Dashboard2 from "./Dashboard2.png";
+import Dashboard3 from "./Dashboard3.png";
+import Dashboard4 from "./Dashboard4.png";
 import Frame17 from "./Frame17.png";
 import Frame16 from "./Frame16.png";
 import Borderlesshr from "./Borderlesshr.png";
@@ -16,6 +18,7 @@ import Iteration from "./iteration1.png";
 import Iteration3 from "./iteration3.png";
 import Iteration2 from "./iteration2.png";
 import Vector from "./Vector.png";
+import { Dashboard } from "@mui/icons-material";
 function BorderlessCaseStudy() {
   return (
     <div className="borderlesscasestudy">
@@ -230,11 +233,13 @@ function BorderlessCaseStudy() {
           </div>
 
           <div className="borderless7b">
-            <img src={Group107} alt="group" />
+            <img src={Dashboard1} alt="group" />
+            <img src={Dashboard2} className="end-to-end" alt="group" />
           </div>
 
           <div className="borderless7c">
-            <img src={Group679} alt="group" />
+            <img src={Dashboard3} alt="group" />
+            <img src={Dashboard4} className="end-to-end" alt="group" />
           </div>
         </div>
 
