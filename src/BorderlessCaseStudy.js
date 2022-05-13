@@ -357,10 +357,10 @@ function BorderlessCaseStudy() {
 
           <div className="view-prototype">
           <h5>
-            View prototype: <span>Click here </span>
+            View prototype: <span> <a href="https://www.figma.com/proto/FiKA9LvpEax1wBTPtpbNva/Borderless-Hr?node-id=1496%3A14059&scaling=scale-down-width&page-id=1447%3A13942&starting-point-node-id=1496%3A14059">Click here </a></span>
           </h5>
           <h5>
-            View landing page: <span>Click here </span>
+            View landing page: <span> <a href="https://www.figma.com/proto/FiKA9LvpEax1wBTPtpbNva/Borderless-Hr?node-id=3150%3A23537&scaling=scale-down-width&page-id=3150%3A23534&starting-point-node-id=3150%3A23537">Click here </a></span>
           </h5>
           <p className="">
             <span>Admin dashboard:</span>  I also worked on the admin dashboard
