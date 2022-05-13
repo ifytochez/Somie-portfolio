@@ -273,10 +273,7 @@ function BorderlessCaseStudy() {
       <div className="casestudycontainer2">
         <div className="literation">
           <h1>Design Iteration</h1>
-          <p>
-            After the user testing we got helpful feedbacks on how we can
-            improve the user experience.
-          </p>
+          <p>To validate design solution we conducted a task-based usability study and we got helpful <br/> feedbacks on how we can improve users experience. </p>
 
           <div className="literation1">
             <div className="literation-writeup1">
